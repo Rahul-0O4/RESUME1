@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <!-- navbar start -->
+    <nav class="navbar navbar-expand-lg bg-info">
+        <div class="container-fluid p-3">
+          <a class="navbar-brand text-dark fw-bolder mx-5" href="#">Resume</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+              <li class="nav-item mx-3 fw-bolder">
+                <a class="nav-link " aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item mx-3 fw-bolder">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item dropdown mx-3 fw-bolder">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Projects
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item fw-bolder" href="#">First</a></li>
+                  <li><a class="dropdown-item fw-bolder" href="#">Second</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item fw-bolder" href="#">Third</a></li>
+                </ul>
+              </li>
+              <li class="nav-item mx-3">
+                <a class="nav-link fw-bolder">Link</a>
+              </li>
+            </ul>
+            <div class="">
+                <i class="fa-brands fa-facebook mx-4 icon" style="line-height: 1.9;"></i>
+                <i class="fa-brands fa-instagram mx-4 icon" style="line-height: 1.9;"></i>
+                <i class="fa-brands fa-linkedin mx-4 icon" style="line-height: 1.9;"></i>
+            </div>
+          </div>
+        </div>
+      </nav>
+    <!-- navbar end -->
+    <!-- main body start -->
+    <div class="container-fluid" style="background-color: lightgray;">
+        <h1 class="text-success fw-bolder ms-4 pt-5">ABOUT ME:</h1>
+        <div class="row">
+            <div class="col-6 p-5">
+                <p class="h6 text-break">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum nihil, architecto saepe ad nesciunt vero quo rem suscipit tenetur voluptate, neque assumenda blanditiis accusantium debitis quidem animi delectus quisquam numquam soluta iure quam consequuntur quae aliquid. Blanditiis minima, veniam, recusandae nihil voluptates provident sunt dolorum consequatur perspiciatis cumque explicabo odit dolorem in hic adipisci laudantium nesciunt vitae ab distinctio dolore dolor dicta. Iure distinctio officiis praesentium ab facere maiores aperiam, incidunt sint adipisci accusantium suscipit amet atque eligendi
+                </p>
+            </div>
+            <div class="col-6 p-5 text-center">
+                <img src="../user.png" alt="" class="rounded-pill">
+            </div>
+        </div>
+    </div>
+    <!-- main body end -->
+
+    <!-- projects start -->
+    <div class="container mt-5">
+        <h1 class="text-success fw-bolder mb-4">MY PROJECTS:</h1>
+        <div class="row">
+            <div class="col-4">
+                <img src="../images/4.jpg" alt="" class="w-100">
+                <p class="text-center h4 mt-3">Lorem ipsum dolor sit amet.</p>
+            </div>
+            <div class="col-4">
+                <img src="../images/4.jpg" alt="" class="w-100">
+                <p class="text-center h4">Lorem ipsum dolor sit amet.</p>
+            </div>
+            <div class="col-4">
+                <img src="../images/4.jpg" alt="" class="w-100">
+                <p class="text-center h4">Lorem ipsum dolor sit amet.</p>
+            </div>
+        </div>
+    </div>
+    <!-- projects end -->
+
+    <!-- accordian start -->
+    <div class="container mt-5">
+        <h1 class="text-success fw-bolder mb-4">DESCRIPTION ABOUT MY PROJECT:</h1>
+        <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                Project #1
+                </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                <strong>This is the first item's accordion body.</strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis blanditiis ullam ipsam inventore ipsa alias! Laborum iusto exercitationem recusandae, ipsum quae nemo quasi maiores illo molestias optio eius repudiandae? Aliquid molestiae beatae explicabo adipisci expedita quis dignissimos sit iusto a quasi architecto placeat, porro cumque amet optio eveniet accusamus numquam quisqua
+                </div>
+            </div>
+            </div>
+            <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                Project #2
+                </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                <strong>This is the second item's accordion body.</strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis blanditiis ullam ipsam inventore ipsa alias! Laborum iusto exercitationem recusandae, ipsum quae nemo quasi maiores illo molestias optio eius repudiandae? Aliquid molestiae beatae explicabo adipisci expedita quis dignissimos sit iusto a quasi architecto placeat, porro cumque amet optio eveniet accusamus numquam quisqua
+                </div>
+            </div>
+            </div>
+            <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                Project #3
+                </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                <strong>This is the third item's accordion body.</strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis blanditiis ullam ipsam inventore ipsa alias! Laborum iusto exercitationem recusandae, ipsum quae nemo quasi maiores illo molestias optio eius repudiandae? Aliquid molestiae beatae explicabo adipisci expedita quis dignissimos sit iusto a quasi architecto placeat, porro cumque amet optio eveniet accusamus numquam quisqua
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+    <!-- accordian end -->
+
+    <!-- progress start -->
+    <section style="background-color: lightgray;" class="p-5 mt-5">
+        <div class="container">
+            <h2 class="mb-4 fw-bold text-success">MY PROGRESS:</h2>
+            <div class="progress mb-3" role="progressbar" aria-label="Basic example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                <div class="progress-bar progress-bar-striped progress-bar-animated bg-success" style="width: 95%">HTML</div>
+            </div>
+            <div class="progress mb-3" role="progressbar" aria-label="Basic example" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+                <div class="progress-bar progress-bar-striped progress-bar-animated bg-info" style="width: 100%">CSS</div>
+            </div>
+            <div class="progress mb-3" role="progressbar" aria-label="Basic example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                <div class="progress-bar progress-bar-striped progress-bar-animated bg-warning" style="width: 90%">BOOTSTRAP</div>
+            </div>
+            <div class="progress mb-3" role="progressbar" aria-label="Basic example" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+                <div class="progress-bar progress-bar-striped progress-bar-animated bg-danger" style="width: 50%">JQUERY</div>
+            </div>
+        </div>
+    </section>
+    <!-- progress end -->
+
+    <!-- footer start -->
+    <section>
+        <div class="container-fluid" style="background-color: black;">
+            <div class="row">
+                <div class="col-6 text-center h2 text-light p-3">CopyRight@2023</div>
+                <div class="col-6 text-center h2 text-light p-3">Made By Rahul</div>
+            </div>
+        </div>
+    </section>
+    <!-- footer end -->
+</body>
+</html>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
